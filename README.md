@@ -32,3 +32,7 @@ This was done to check if the branch created with the help of cli is working or 
 The Branch created using cli with the help of git checkout -b <branch_name> .
 
 As I have modified this readme.md file. So, until I add those modified file to the git repo it will show a M text in yellow color until I push it to the repository. 
+
+## Writing this in the main file.
+
+Changes made in the branch will not be visible in the main file until we use "git pull" command in the main branch.
