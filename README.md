@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## git Practice
+
+This was done to check if the branch created with the help of cli is working or not.
+The Branch created using cli with the help of git checkout -b <branch_name> .
+
+As I have modified this readme.md file. So, until I add those modified file to the git repo it will show a M text in yellow color until I push it to the repository. 
