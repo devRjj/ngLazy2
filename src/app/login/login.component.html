@@ -1,11 +1,11 @@
 <div>
-    <form [formGroup]="loginForm">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
         <label for="username">Username</label>
         <input type="text" formControlName="username">
         <label for="password">Password</label>
         <input type="text" formControlName="password">
         <div>
-            <button (click)="onSubmit()">Submit</button>
+            <button type="submit">Submit</button>
         </div>
     </form>
 </div>

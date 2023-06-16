@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit{
 
   constructor(private fb:FormBuilder){}
 
-  obj!: loginInterface[];
+  obj: loginInterface[] = [];
 
   ngOnInit(){
 
