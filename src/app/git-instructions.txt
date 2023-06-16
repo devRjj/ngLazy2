@@ -41,4 +41,3 @@ What is a Pull Request or PR?
 
 
 How to update the local workspace with the updates from the merged branches?
- 
