@@ -1,0 +1,44 @@
+If we want to contribute multiple developers on a single project. We can use github, gitBucket or gitLab
+
+For adding any project into github, we can follow some very simple steps:
+
+ Step 1: 
+  Using terminal we can head to the folder where our project is and hit the command "git init". or we can use any code editor to directly access that folder and write the "git init" command to initiate the process.
+
+ Step 2: 
+  If it's the first step then use "git add ." command to stage the files we want to add.
+   -"git add ." will add all the files other than the files mentioned in the 'gitigore' file.
+   -If we want to add any specific folder we can use "git add <folder_name>.
+
+ Step 3:
+  Third step is to add a commit message with "git commit -m "<message_within_double_quotes>". The message generally includes the updates that have been made to the branch.
+
+ Step 4:
+  After commiting one main branch should be created where all the sub-branch can be merge into. Therefore, the 4th step command in "git branch -M main".
+
+ Step 5: 
+  This step is use to add the remote repository from where it allows us to synchronise our local repository with the remote one. The command used in this step is "git remote add origin <the_URL_of the_gitHub> this add the remote repository with a name "origin".
+
+ Step 6:
+  This is the last step with command "git push -u origin <branch_name>". This command pushes the local repository's commits to the remote repository. The '-u' set ups the remote branch 'main' as the upstream branch, meaning that in the future 'git push' command will automatically add to the main branch.
+
+Branch in git.
+ Creating and adding Git branches is one of the main thing. As it will allow us to create and work on different features and bugs in isolation without affecting the main branch.
+
+How to create branch?
+ ~ It is better to see all the branch in the workspace and which one we are currently on with the command "git branch".
+
+ ~ We can create branch from the cli/terminal with the command "git branch <branch_name> alternatively we can create and switch directly to a branch with the "git -b <branch_name>" command.
+
+ ~ We can switch between different branch with the "git checkout <branch_name> command.
+
+What is a Pull Request or PR?
+ It’s basically a request to have our code pulled into another branch.
+ 
+ For example, if we have a feature branch and we want to have our code pulled into the main/master branch. So, we can make a pull requests or PR from the feature branch to the main/master branch. Once we have make a PR anyone can review our code, or comment on it, ask us to make changes or updates. 
+ 
+ After we make a PR we can also update the code just by making commits and pushing them to the GitHub, as long as it is on the same branch that we are making the PR with. Once the PR is merged, we will generally delete the feature branch or source branch. And switch back to the master branch. And then, when we want to make additional coding changes we will create another new branch and start the process over. Making commits, PR and then merge again
+
+
+How to update the local workspace with the updates from the merged branches?
+
